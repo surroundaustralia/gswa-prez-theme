@@ -1,5 +1,5 @@
 themeVolume: theme # no trailing slash
-sidenav: true
+sidenav: false
 enabledPrezs:
   - VocPrez
 sparqlEndpoint: #{SPARQL_ENDPOINT}#
@@ -13,7 +13,7 @@ searchEndpoints:
     url: http://ga.surroundaustralia.com/sparql/
   - name: GSQ VocPrez
     url: http://gsq.surroundaustralia.com/sparql/
-systemUri: http://prez.surroundaustralia.com
+systemUri: http://gswa.surroundaustralia.com
 dataUri: http://example.com
 systemInfo:
   Prez:
@@ -34,4 +34,4 @@ systemInfo:
 appName: gswa
 deploymentMethod: kubernetes # docker, kubernetes or ecs
 storageClass: ebs-sc # for kubernetes deployment
-version: latest
+version: 0.1.1

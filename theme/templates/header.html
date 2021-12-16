@@ -1,7 +1,11 @@
 <header>
     <div id="header-content">
-        <img id="header-logo" src="{{ url_for('gswa-theme', path='img/WAGovLogo.svg') }}" alt="WA Gov logo">
+        <a class="header-logo-link" href="https://www.dmirs.wa.gov.au/">
+            <img src="{{ url_for('theme', path='img/WAGovLogo.svg') }}" alt="WA Gov logo">
+        </a>
         <h1>{{ pagetitle }}</h1>
-        <img src="{{ url_for('gswa-theme', path='img/gswa-logo.png') }}" alt="GSWA logo">
+        <a class="header-logo-link" href="https://www.dmp.wa.gov.au/Geological-Survey/Geological-Survey-262.aspx">
+            <img src="{{ url_for('theme', path='img/gswa-logo.png') }}" alt="GSWA logo">
+        </a>
     </div>
 </header>
