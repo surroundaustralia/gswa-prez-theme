@@ -34,4 +34,4 @@ systemInfo:
 appName: gswa
 deploymentMethod: kubernetes # docker, kubernetes or ecs
 storageClass: ebs-sc # for kubernetes deployment
-version: 0.1.1
+version: 0.1.2
